@@ -1,6 +1,0 @@
-[tool.pytest.ini_options]
-testpaths = [
-  "artificial-intelligence",
-  "crack"
-]
-python_files = ["verify.py"]
