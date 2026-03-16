@@ -1,0 +1,25 @@
+Dag Daan,
+
+Ik stuur u deze mail met mijn feedback over het introductieproject. Ik heb zelf nog niet veel ervaring met programmeren, dus mijn feedback is vooral gebaseerd
+op hoe ik het project als beginner heb ervaren. In het algemeen vond ik het een interessante manier om kennis te maken met verschillende 
+onderdelen van IT, omdat ik niet alleen theorie zag, maar ook zelf dingen moest uitproberen en oplossen. Wat ik positief vond, is dat een aantal 
+challenges goed te doen waren en soms zelfs leuk om te maken. Vooral de opdrachten waarbij het vrij duidelijk was wat er verwacht werd, 
+gaven mij het gevoel dat ik echt iets aan het bijleren was. Ook het grotere project vond ik interessant, omdat ik daar meer mijn eigen ideeën 
+in kwijt kon en niet gewoon iets moest volgen, maar echt zelf iets mocht aanpassen en opbouwen. Tegelijk vond ik sommige challenges minder duidelijk. 
+Omdat ik nog weinig programmeerervaring heb, was het soms moeilijk om te weten of ik vastzat door mijn eigen fout of doordat de opdracht zelf 
+niet helemaal duidelijk was. Het grootste probleem dat ik ben tegengekomen, was dat sommige antwoorden volgens mij juist waren, maar toch niet 
+correct werden afgevinkt door het systeem. Daardoor bleef ik soms lang zoeken naar een oplossing terwijl ik eigenlijk al op het juiste spoor zat. 
+Dat was best frustrerend en heeft me ook extra tijd gekost. Ik had het gevoel dat ik daardoor extra challenges moest maken om toch genoeg groen te 
+hebben.
+
+Een mogelijke verbetering zou zijn om die automatische controle nog eens goed na te kijken, zodat juiste antwoorden ook effectief juist 
+worden herkend. Daarnaast denk ik dat het ook zou helpen om bij moeilijkere challenges wat meer context of een kleine hint te geven, zeker 
+voor studenten die nog niet veel ervaring hebben. Dat zou de opdrachten niet per se makkelijker maken, maar wel duidelijker en minder demotiverend.
+
+In het algemeen vond ik het introductieproject wel een goede manier om actief bezig te zijn met IT en om zelfstandig problemen te leren oplossen. 
+Ondanks de frustraties heb ik er ook veel uit geleerd, en ik denk dat het project zeker sterk is als een paar onduidelijkheden en technische 
+problemen in de toekomst nog wat verbeterd worden.
+
+Met vriendelijke groeten,
+
+Sophie Huys
