@@ -1,4 +1,0 @@
-country,capital,population
-France,Paris,69
-Belgium,Brussels,12
-Netherlands,Amsterdam,17

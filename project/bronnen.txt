@@ -1,0 +1,28 @@
+“Reflectie bij video” https://www.youtube.com/watch?v=iwUR0kOVNs8&feature=youtu.be&themeRefresh=1
+
+Zoals de titel voor zichzelf spreekt, "Test all the f***ing time." Bryan Liles benadrukt hoe belangrijk het is om je code constant te testen.  
+Dat is dus de belangrijkste boodschap hier en de foundation van al de andere punten. Volgens hem maken veel programmeurs de fout van niet
+genoeg te testen, waardoor ze soms dingen moeilijker voor zichzelf maken - zoals bugs en problemen in het programma later.
+
+Een belangrijk punt dat hij aanhaalt is dat je tests moet vertrouwen. Ze geven namelijk aan waar je fout in de code zit.
+Zo kan de programmeur controleren wat de code breekt en het wijzigen voor verdere problemen te voorkomen.
+
+Daarnaast bespreek hij TDD, wat staat voor Test Driven Development. Dit betekent dat je eerst een test schrijft en test. Eerst schrijf
+je een code die faalt. Dan een code die werkt. Vervolgens verbeter je de code dan. Volgens Bryan helpt deze methode om zo beter
+code te schrijven door dit altijd te doen. Bryan geeft ook duiding op het feit dat tests niet enkel dienen voor fouten te vinden, maar ook voor documentatie
+zodat andere programmeurs beter de code kan lezen en de functie begrijpen. 
+
+Verder word er gezegt dat programmeurs excuses maken om geen tests te schrijven omdat dit volgens hun te veel tijd zou nemen. 
+Terwijl dat testen op voorhand juist veel tijd kan besparen door bugs te vermijden die je dan later zoekt en moet fixen.
+
+# Mijn persoonlijke reflectie #
+
+Ik ben het eens met zijn boodschap. Ik snap inderdaad wat er hier bedoelt word met "Test all the f***ing time" .. Ik doe het ook
+ookal volg ik een tutorial of instructies. Het is beter om altijd nieuwe stukken code te testen om meteen te weten waar het probleem ligt. 
+De presentatie was ook duidelijk en best grappig met al de memes die hij gebruikte. Zijn presentatie stijl kan wel misschien een beetje overdreven
+overkomen bij 'serieuze' mensen die niet zo voor memes en grof taalgebruik zijn. 
+
+# Conclusie #
+
+Bryan Liles benadrukt hoe belangrijk het is om een gewoonte te maken van voortdurend tests te schrijven om zo later problematiek in de
+code te vermijden. 
