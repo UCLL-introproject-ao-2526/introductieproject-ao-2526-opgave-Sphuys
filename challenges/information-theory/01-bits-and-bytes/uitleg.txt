@@ -1,0 +1,2 @@
+Een byte bevat 8 bits. Daarom deel ik 12.345 door 8. Dat geeft 1543,125, en omdat opslag
+ per volledige byte gebeurt, rond ik naar boven af naar 1544 bytes.

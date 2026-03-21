@@ -1,0 +1,5 @@
+a+b)* mag ook niets zijn, want * betekent: 0 of meer keer
+(c+d)+ moet minstens 1 keer, want + betekent: 1 of meer keer
+c+d betekent: minstens één c, daarna één d
+de kortste daarvan is cd
+daarna moet nog 1 komen

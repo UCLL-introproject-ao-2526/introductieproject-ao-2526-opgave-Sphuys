@@ -1,0 +1,5 @@
+. = eender welk teken
+{5,} = minstens 5 keer
+^ en $ = hele string moet voldoen
+
+of .....

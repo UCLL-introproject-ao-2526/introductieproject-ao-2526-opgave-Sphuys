@@ -1,0 +1,7 @@
+Dit is Common Lisp. De functie test getallen vanaf 2 en sluit telkens veelvouden van eerder gevonden getallen uit. 
+Daardoor ontstaan de priemgetallen. Omdat ook bij n = 0 nog een getal wordt toegevoegd, geeft
+gen 10 de eerste 11 priemgetallen: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31
+
+gedaan via 
+
+https://onecompiler.com/commonlisp/44gztnvyw
