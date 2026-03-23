@@ -11,10 +11,12 @@ import os
 pygame.init()
 
 # WIDTH en HEIGHT bepalen de grootte van het scherm.
+# [dn] als je SCREEN_WIDTH en SCREENHEIGTH gebruikt als naam, heb je de comment niet nodig
+# of nog makkelijker: SCREEN_SIZE = [900, 050]
 WIDTH = 900
 HEIGHT = 950
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
-pygame.display.set_caption('PAC MAN IN PINKLAND')
+pygame.display.set_caption('PAC MAN IN PINKLAND') # [dn] :)
 
 # fps bepaalt hoeveel keer per seconde het spel vernieuwt.
 fps = 60
@@ -28,6 +30,8 @@ big_font = pygame.font.Font(font_path, 36)
 
 
 # Kleuren in RGB: (rood, groen, blauw).
+# [dn] wees consistent in hoe je variablen scrhijft. WIDTH en HEIGHT zijn in grote letters omdat ze constanten (veranderen nooit) zijn
+# dan eigenlijk ook YELLOW, PURPLE
 yellow = (255, 224, 130)
 purple = (186, 85, 211)
 pink_bg = (255, 230, 240)
@@ -43,6 +47,10 @@ blue = (100, 180, 255)
 TILE = 44
 
 # In dit bord betekent 1 een muur en 0 een pad met een pellet.
+# [dn] Voor volgende keer: je zou dit in een textfile kunnen doen, dan zit je niet met al die komma's.
+# Je moet dan wel de file inlezen wanneer je opstart
+# Het leuken is dat andere mensen (die minder cool zijn want ze kennen geen python) toch makkelijk
+# level's kunnen maken
 level_1 = [
     [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
     [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
@@ -114,6 +122,8 @@ player_x = x_offset + TILE + TILE // 2
 player_y = y_offset + TILE + TILE // 2
 
 # Elke ghost is een dictionary met x, y, startpositie, richting en kleur.
+# [dn] Waarom een dictionary?
+# [dn] Die TILE + TILE // 2 komt heel vaak voor. Waarom geen makkelijker te typen variabele van maken?
 ghosts = [
     {
         "x": x_offset + 9 * TILE + TILE // 2,
@@ -217,6 +227,7 @@ def draw_heart(x, y, color):
 # draw_title_hearts()
 # Deze functie tekent hartjes rond de titel op het startscherm.
 # Door title_timer bewegen ze een klein beetje op en neer.
+# [dn] leuk!
 def draw_title_hearts():
     float_y = (title_timer // 20) % 2
 
@@ -443,13 +454,14 @@ def move_ghost(ghost):
     new_x = ghost["x"]
     new_y = ghost["y"]
 
-    if ghost["direction"] == "right":
+    # [dn] je kan ook coordinaten gebruiken als beweging: 
+    if ghost["direction"] == "right": #[1, 0]
         new_x += ghost_speed
-    elif ghost["direction"] == "left":
+    elif ghost["direction"] == "left": #[-1, 0]
         new_x -= ghost_speed
-    elif ghost["direction"] == "up":
+    elif ghost["direction"] == "up": #[0, 1]
         new_y -= ghost_speed
-    elif ghost["direction"] == "down":
+    elif ghost["direction"] == "down": #[0, -1)
         new_y += ghost_speed
 
     if can_move(new_x, new_y):
