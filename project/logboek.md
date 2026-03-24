@@ -36,3 +36,17 @@ Ik heb pacman zijn mondje getekent zodat het een animatie heeft. Ik heb het nog 
 Geprobeerd om een tweede level toe te voegen. Hiervoor heb ik mijn huidige bord opgesplitst in level_1 en level_2, zodat ik later tussen levels kan wisselen. Ik heb ook gekeken hoe ik dat logisch kon laten gebeuren via check_win() en hoe een nieuw spel terug op level 1 moet starten via reset_game().
 
 In het begin werkte dit niet goed en liep mijn spel vast. Uiteindelijk bleek dat mijn variabelen niet op de juiste plaats stonden in de code. Nadat ik dat had aangepast en board = level_1 op de juiste plek had gezet, werkte het systeem opnieuw zoals bedoeld. Verder ook een level text midden boven aan toegevoegt. Ik wil het niet te veel verder compliceren dan het al is, dus stuur ik dit naar de leerkracht voor feedback.
+
+# 24 Maart 16:37 
+Feedback gekregen over mijn project. Ik heb het eens na gelezen en ga akkoord met de commentaar. Inderdaad, ik plaats comments voor bepaalde functies terwijl ik de functie zelf gewoon duidelijker had kunnen maken. Ik leer ook uit de kortere, duidelijkere geschreven functie voorbeelden die gegeven werden. 
+
+Er werden een aantal vragen gesteld, waarop ik hier de antwoorden schrijf in het geval dat deze worden gevraagt op het examen zelf.
+
+# Elke ghost is een dictionary met x, y, startpositie, richting en kleur.
+# [dn] Waarom een dictionary?
+Ik gebruikte een dictionary omdat een ghost meerdere eigenschappen heeft zoals positie, richting en kleur, en die ik gemakkelijk per naam wou opslaan en aanpassen. 
+
+# [dn] Die TILE + TILE // 2 komt heel vaak voor. Waarom geen makkelijker te typen variabele van maken?
+Goede opmerking. Ik heb hier zelf niet echt stil bij gestaan en onwetend dingen moeilijker voor mezelf gemaakt. Ik durf niet zo goed dingen 'veranderen', dus blijf ik bij de gecompliceerde versie omdat ik het beter 'ken'. 
+
+Het doel is nu om de feedback te gebruiken om de code qua structuur beter te maken en dit in de toekomst ook te doen.
