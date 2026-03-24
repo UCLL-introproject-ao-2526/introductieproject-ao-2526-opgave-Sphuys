@@ -17,7 +17,7 @@ screen = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
 pygame.display.set_caption('PAC MAN IN PINKLAND')
 
 # fps bepaalt hoeveel keer per seconde het spel vernieuwt.
-FPS = 60
+FPS = 60 
 timer = pygame.time.Clock()
 
 # Deze fonts gebruiken we voor tekst op het scherm.
